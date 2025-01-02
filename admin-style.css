@@ -1,0 +1,127 @@
+/* Admin Panel Styling */
+#admin-header {
+    background-color: #8A2BE2;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#logout-btn {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#logout-btn:hover {
+    background-color: #c0392b;
+}
+
+#admin-content {
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #444;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #8A2BE2;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+#admin-login-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#admin-login-btn {
+    padding: 10px 20px;
+    background-color: #7a1cde;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#admin-login-btn:hover {
+    background-color: #8A2BE2;
+}
+
+#admin-login-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    display: none;
+}
+
+#admin-login-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#admin-login-form button {
+    padding: 10px;
+    background-color: #8A2BE2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#admin-login-form button:hover {
+    background-color: #7a1cde;
+}
+
+#admin-link-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#admin-link-container a {
+    color: #8A2BE2;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#admin-link-container a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Student Resume Builder</h1>
+        <button id="admin-login-btn" class="admin-btn">Admin Login</button>
+    </header>
+
+    <!-- Admin Login Form -->
+    <div id="admin-login-form">
+        <div class="form-container">
+            <span id="close-login-btn">&times;</span>
+            <h2>Admin Login</h2>
+            <form id="admin-login">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Admin Link after Successful Login -->
+    <div id="admin-link-container" style="display: none;">
+        <a href="admin.html">Go to Admin Page</a>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Resume Builder</h1>
+        <p>Create your professional resume easily!</p>
+    </header>
+
+    <!-- Options for input method -->
+    <div id="input-options">
+        <button id="formInputBtn">Use Form</button>
+        <button id="chatInputBtn">Use Chatbot</button>
+    </div>
+
+    <!-- Chatbot Container -->
+    <div id="chatbot" class="hidden">
+        <div id="chatbox">
+            <div id="messages"></div>
+            <input type="text" id="userInput" placeholder="Type your answer..." />
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <!-- Form for Input -->
+    <div id="formInput" class="hidden">
+        <form id="resumeForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" required><br>
+
+            <label for="photo">Upload Photo:</label>
+            <input type="file" id="photo"><br>
+
+            <label for="summary">Summary/Objective:</label>
+            <textarea id="summary" required></textarea><br>
+
+            <label for="education">Education:</label>
+            <textarea id="education" required></textarea><br>
+
+            <label for="experience">Work Experience:</label>
+            <textarea id="experience"></textarea><br>
+
+            <label for="skills">Skills:</label>
+            <textarea id="skills" required></textarea><br>
+
+            <label for="hobbies">Hobbies & Interests:</label>
+            <textarea id="hobbies"></textarea><br>
+
+            <button type="submit" id="submitFormBtn">Submit</button>
+        </form>
+    </div>
+
+    <!-- Resume Preview Section -->
+    <div id="resumePreview">
+        <button id="generateResumeBtn" class="hidden">Generate Resume</button>
+        <div id="resumeOutput"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
